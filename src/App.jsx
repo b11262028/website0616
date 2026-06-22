@@ -125,8 +125,8 @@ export default function App() {
 
       <div id="layout">
         <div id="top-rule">
-          <span className="top-text top-school">國立臺北藝術大學 · 新媒體藝術學系</span>
-          <span className="top-text">PORTFOLIO — A · T</span>
+          <span className="top-text top-school">Chien-Ting Tang</span>
+          <span className="top-text">PORTFOLIO — Ting</span>
         </div>
 
         <div id="col-left">
@@ -136,10 +136,13 @@ export default function App() {
             ))}
           </div>
 
-          <span className="col-label">NMA · TNUA</span>
+
         </div>
 
         <div id="col-center">
+          <div className="home-photo">
+            <img src={`${import.meta.env.BASE_URL}images/picture.png`} alt="" />
+          </div>
           <div className="teal-bar" />
           <p className="eyebrow">個人網站</p>
           <h1 className="main-name">

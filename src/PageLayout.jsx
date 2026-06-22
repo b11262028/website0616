@@ -22,7 +22,7 @@ export default function PageLayout({ titleZh, titleEn, children }) {
       <div id="page-wrap">
         <div id="page-top">
           <a href="/" className="back-btn" onClick={handleBack}>← 返回</a>
-          <span className="top-text">PORTFOLIO — A · T</span>
+          <span className="top-text">PORTFOLIO — Ting</span>
         </div>
 
         <div id="page-body">
